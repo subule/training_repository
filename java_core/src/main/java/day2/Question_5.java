@@ -1,9 +1,8 @@
-package java_core;
+package day2;
 
 import java.util.Scanner;
 
-public class Factorial {
-
+public class Question_5 {
 	public static void main(String[] args) {
 		int number, result=1;
 		Scanner sc = new Scanner(System.in);
@@ -17,6 +16,7 @@ public class Factorial {
 		
 		for(; number>0; number--) {
 			result*=number;
+			sc.close();
 		}
 		System.out.println("Factorial = "+result);
 	}

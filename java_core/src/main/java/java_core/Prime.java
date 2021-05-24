@@ -1,5 +1,6 @@
 package java_core;
 
+import java.util.*;
 public class Prime {
 
 	public static void main(String[] args) {
@@ -19,8 +20,6 @@ public class Prime {
 		else {
 			System.out.println("This is a Prime Number !");
 		}
-		
-		
 		
 		sc.close();
 	}

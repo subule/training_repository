@@ -8,12 +8,11 @@ public class ReverseNumber {
 		System.out.println("Enter the Number : ");
 		long number = sc.nextLong();
 		long rev_num=0, flag;
+		sc.close();
 		for(; number!=0; number/=10) {                //first slot empty; second slot condition; third slot operation
 			flag = number%10;
 			rev_num = rev_num*10+flag;
 		}
 		System.out.println("The reversed number is : "+rev_num);
-		
-		sc.close();
 	}
 }
